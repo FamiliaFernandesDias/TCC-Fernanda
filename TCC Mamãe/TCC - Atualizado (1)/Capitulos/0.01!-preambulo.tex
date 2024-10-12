@@ -23,8 +23,8 @@
 	% -- opções da classe memoir --
 	12pt,				% tamanho da fonte
 	openright,			% capítulos começam em pág ímpar (insere página vazia caso preciso)
-    %twoside,			% para impressão em verso e anverso. Oposto a oneside
-    oneside,           	% para impressão  apenas verso
+	%twoside,			% para impressão em verso e anverso. Oposto a oneside
+	oneside,           	% para impressão  apenas verso
 	a4paper,			% tamanho do papel. 
 	% -- opções da classe abntex2 --
 	%chapter=TITLE,		% títulos de capítulos convertidos em letras maiúsculas
@@ -33,10 +33,10 @@
 	%subsubsection=TITLE,% títulos de subsubseções convertidos em letras maiúsculas
 	% -- opções do pacote babel --
 	english,			% idioma adicional para hifenização
-%	french,				% idioma adicional para hifenização
-%	spanish,			% idioma adicional para hifenização
+	%	french,				% idioma adicional para hifenização
+	%	spanish,			% idioma adicional para hifenização
 	brazil				% o último idioma é o principal do documento
-	]{abntex2}
+]{abntex2}
 
 % ---
 % Pacotes básicos 
@@ -64,7 +64,7 @@
 \usepackage{pdfpages}           % Para incluir arquivos pdf
 \usepackage{verbatim}
 \usepackage{booktabs}
-\usepackage{multirow}	
+\usepackage{multirow}
 % ---
 % Pacotes adicionais, usados apenas no âmbito do Modelo Canônico do abnteX2
 % ---
@@ -113,7 +113,7 @@
 \newlistentry{quadro}{loq}{0}
 %
 \counterwithout{quadro}{chapter}
-\renewcommand{\cftquadroname}{\quadroname\space} 
+\renewcommand{\cftquadroname}{\quadroname\space}
 \renewcommand*{\cftquadroaftersnum}{\hfill--\hfill}
 
 
@@ -129,7 +129,7 @@
 \newlistentry{grafico}{logg}{0}
 %
 \counterwithout{grafico}{chapter}
-\renewcommand{\cftgraficoname}{\graficoname\space} 
+\renewcommand{\cftgraficoname}{\graficoname\space}
 \renewcommand*{\cftgraficoaftersnum}{\hfill--\hfill}
 
 %
