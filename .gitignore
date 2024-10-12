@@ -10,3 +10,7 @@
 *.log
 *.gz
 *.fdb_latexmk
+*.lot
+*.lof
+*.synctex(busy)
+*.toc
