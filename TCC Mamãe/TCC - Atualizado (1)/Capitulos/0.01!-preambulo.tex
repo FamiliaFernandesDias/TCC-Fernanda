@@ -219,3 +219,13 @@
 \newenvironment{CenteredTable}{\begin{table}[htbp]\centering}{\end{table}} % Centered Tables
 
 \usepackage{xcolor} % Colorir Relação de Euler
+
+% Seguindo a NBR 6023
+\makeatletter
+\@ifpackageloaded{url}{%
+    \addtociteoptionlist{abnt-url-package=url}
+    \def\UrlLeft{}
+    \def\UrlRight{}
+    \urlstyle{same}}
+\makeatother
+% Seguindo a NBR 6023
