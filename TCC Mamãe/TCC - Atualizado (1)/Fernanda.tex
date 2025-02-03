@@ -211,7 +211,7 @@ Ele completa dizendo que ``O jovem lê o que pode visualizar, precisa ver para c
 
 % Buscando entender mais sobre as metodologias ativas, \citeonline[p. 4]{PEREIRALEITE2023} afirmam que elas ``devem fazer parte do processo educacional, pois elas são canais para alcançar liberdade, autonomia, reflexão, colaboração e mediação, além de valorizar e subsidiar o uso de Tecnologias Digitais de Informação e Comunicação (TDIC) e dos recursos didáticos digitais (RDD)''. O autor complementa dizendo que ``nesta perspectiva, é notório que as metodologias ativas agregam valores pertinentes à construção do conhecimento e podem contribuir para a melhoria do processo de ensino e aprendizagem''. % Removendo referências
 
-% Segundo \citeonline[p. 40]{SANTOS2020} ``a experiência deixa marcas, pois desafia o indivíduo a se confrontar com o medo do contato com o diferente, com o receio de ser discriminado e com os riscos inerentes de vivenciar situações novas que não estão a priori sob seu controle''. % Removendo referências "Não matemáticas"
+% Segundo \citeonline[p. 40]{SANTOS2020} ``a experiência deixa marcas, pois desafia o indivíduo a se confrontar com o medo do contato com o diferente, com o receio de ser discriminado e com os riscos inerentes de vivenciar situações novas que não estão a priori sob seu controle''. % Removendo referências ``Não matemáticas''
 
 De acordo com \citeonline{MENDES2019}, a gamificação é compreendida como uma estratégia para ser utilizada nos ambientes formais e não formais de ensino, de modo que ela pode ter suas influências nos processos de ensino e aprendizagem.
 
@@ -241,7 +241,7 @@ Segundo \citeonline{TANGERINO2017} os objetivos da metodologia de estudos por me
 
 A ABP envolve uma apresentação de cenários ou casos complexos, que representam situações do mundo real, para os alunos investigarem e resolverem. Os alunos são incentivados a identificar o que eles já sabem sobre o tema, o que precisam aprender e como podem adquirir esse conhecimento. Eles são encorajados a fazer perguntas, colaborar com colegas, pesquisar, discutir, analisar e sintetizar informações relevantes para encontrar soluções para os problemas apresentados.
 
-% Para \citeonline[p. 28]{OLIVEIRA2021} durante o processo que é desencadeado pela Aprendizagem Baseada em Problemas ``o ponto central é a autonomia do estudante estimulado na busca conhecimento por meio da aprendizagem, o que engloba, como principal característica, a relação de conteúdos disciplinares no contexto de um problema orientado''. % Removendo referências "Não matemáticas"
+% Para \citeonline[p. 28]{OLIVEIRA2021} durante o processo que é desencadeado pela Aprendizagem Baseada em Problemas ``o ponto central é a autonomia do estudante estimulado na busca conhecimento por meio da aprendizagem, o que engloba, como principal característica, a relação de conteúdos disciplinares no contexto de um problema orientado''. % Removendo referências ``Não matemáticas''
 
 Essa abordagem pedagógica visa desenvolver não apenas o conhecimento dos alunos, mas também suas habilidades de pensamento crítico, resolução de problemas e trabalho colaborativo, preparando-os para enfrentar desafios no mundo real e incentivando a aprendizagem ao longo da vida.
 
@@ -515,12 +515,56 @@ Destacamos, no \autoref{tab: Solidos Geometricos}, alguns trabalhos que abordam 
 
 Para melhor entender os sólidos geométricos, é importante revisar algumas definições matemáticas básicas. Um sólido geométrico é um objeto tridimensional que possui volume e forma definidos. Os sólidos geométricos são classificados em diferentes categorias, como poliedros e não-poliedros.
 
-Ressalta-se que toda essa subseção se apresenta fortemente baseada nos conceitos matemáticos apresentados por \citeonline{Fundamentos10_2022} e \citeonline{Fundamentos9_2022}.
+Ressalta-se que toda essa subseção se apresenta fortemente baseada nos conceitos matemáticos apresentados por \citeonline{Fundamentos10_2022}, \citeonline{Fundamentos9_2022} e \citeonline{Elon_2022}.
+
+\begin{itemize}
+    \item \textbf{1. Sólidos Geométricos}
+\end{itemize}
+
+Sólidos geométricos são subconjuntos tridimensionais do espaço euclidiano R3, limitados por superfícies que podem ser planas ou curvas. Esses objetos possuem três dimensões - comprimento, largura e altura - e podem ser classificados em diferentes categorias, como poliedros e corpos redondos.
+
+\begin{itemize}
+    \item \textbf{2. Poliedros}
+\end{itemize}
+
+Sua definição é dada por \citeonline{Elon_2022}, onde diz que poliedro (\autoref{fig:poliedro}) é uma reunião de um número finito de polígonos planos chamados faces onde:
+
+\begin{enumerate}
+    \item Cada lado de um desses polígonos é também lado de um, e apenas um, outro polígono.
+    \item A interseção de duas faces quaisquer ou é um lado comum, ou é um vértice ou é vazia. Cada lado de um polígono, comum a exatamente duas faces, é chamado uma aresta do poliedro e cada vértice de uma face é um vértice do poliedro.
+    \item É sempre possível ir de um ponto de uma face a um ponto de qualquer outra, sem passar por nenhum vértice (ou seja, cruzando apenas arestas).
+\end{enumerate}
+
+\begin{CenteredFigure}
+    \caption{Poliedro} \label{fig:poliedro}
+    \includegraphics[width=0.4\textwidth]{Imagens/Novas/Poliedros}
+    \legend{Fonte: \citeonline{Elon_2022}}
+\end{CenteredFigure}
+
+Todo poliedro (no sentido da definição acima), limita uma região do espaço chamada de interior desse poliedro. Dizemos que um poliedro é convexo se o seu interior é convexo. Vamos recordar o que isto significa.
+
+Um poliedro é convexo se qualquer reta (não paralela a nenhuma de suas faces) o corta em, no máximo, dois pontos.
+
+Quando não satisfizer a estas 3 condições, temos um não poliedro ou corpo redondo ou ainda sólido de revolução.
+
+\begin{itemize}
+    \item \textbf{3. Não-poliedros}
+\end{itemize}
+
+Consideremos em um plano, uma reta $E$ chamada eixo e uma linha $L$, simples, que não corta esse eixo, ambos apresentados na \autoref{fig:Revolução}. Imagine que essa linha ``gire'' em torno do eixo, ou seja, cada ponto $L$ descreva uma circunferência em um plano perpendicular a $E$ e com centro sobre $E$, Cada ponto $P$ e $L$ percorre então uma circunferência cujo raio é a sua distância ao eixo e a reunião de todas essas circunferências é chamada uma superfície de revolução. Se a linha $L$ for fechada ou se seus dois extremos pertencerem ao eixo, a superfície de revolução delimita um sólido chamado sólido de revolução.
+
+\begin{CenteredFigure}
+    \caption{Não Poliedro} \label{fig:Revolução}
+    \includegraphics[width=0.4\textwidth]{Imagens/Novas/Revolução}
+    \legend{Fonte: \citeonline{Elon_2022} - Alterado pela autora}
+\end{CenteredFigure}
+
+Repare que a rotação de um retângulo em torno de um eixo que contém um de seus lados produz um cilindro, a rotação de um triângulo retângulo em torno de um eixo que contém um dos catetos produz um cone e a rotação de uma semicircunferência em torno de um eixo que contém o diâmetro produz uma esfera.
 
 % \subsubsection{Área} % 2.5.1.2
 
 \begin{itemize}
-    \item \textbf{1. Área}
+    \item \textbf{4. Área}
 \end{itemize}
 
 % \begin{citacao}
@@ -546,7 +590,7 @@ $$B \subset A \Rightarrow \text{Área de B} \leqslant \text{Área de A}$$
 % \subsubsection{Poliedros Convexos} % 2.5.1.2
 
 \begin{itemize}
-    \item \textbf{2. Poliedros Convexos}
+    \item \textbf{5. Poliedros Convexos}
 \end{itemize}
 
 % \begin{citacao}
@@ -571,7 +615,7 @@ A reunião das faces é a superfície do poliedro.
 % \subsubsection{Poliedros Platônicos} %2.5.1.3
 
 \begin{itemize}
-    \item \textbf{3. Poliedros Platônicos}
+    \item \textbf{6. Poliedros Platônicos}
 \end{itemize}
 
 % \begin{citacao}
@@ -589,7 +633,7 @@ Um poliedro é chamado poliedro de Platão se, e somente se, satisfaz as três s
 % \subsubsection{Prisma: definição, superfícies e volume} %2.5.1.4 % superfície lateral e total do 
 
 \begin{itemize}
-    \item \textbf{4. Prisma: definição, superfícies e volume} % superfície lateral e total do}
+    \item \textbf{7. Prisma: definição, superfícies e volume} % superfície lateral e total do}
 \end{itemize}
 
 % \begin{citacao}
@@ -636,7 +680,7 @@ Os sólidos são medidos por uma unidade que, em geral, é um cubo. Assim, o vol
 % \subsubsection{Pirâmide: definição, superfícies e volume} %2.5.1.5 % superfície lateral e total da 
 
 \begin{itemize}
-    \item \textbf{6. Pirâmide: definição, superfícies e volume}
+    \item \textbf{8. Pirâmide: definição, superfícies e volume}
 \end{itemize}
 
 % \begin{citacao}
@@ -705,7 +749,7 @@ Uma das demonstrações do Teorema de Euler é feita por \citeonline{Zoroastro_2
 Na demonstração deste teorema, feita por \citeonline{Zoroastro_2010}, ele relembra algumas definições que destacaremos abaixo.
 
 \begin{citacao}
-    Um conjunto C, do plano ou do espaço, diz-se \textit{convexo} quando qualquer segmento de reta que liga dois pontos de C está inteiramente contido em C.
+    Um conjunto $C$, do plano ou do espaço, diz-se \textit{convexo} quando qualquer segmento de reta que liga dois pontos de $C$ está inteiramente contido em $C$.
 
     Um \textit{poliedro} é uma reunião finita de polígonos convexos, chamados as \textit{faces} do poliedro. Os lados desses polígonos chamam-se \textit{arestas} do poliedro e os vértices: dos polígonos são também chamados \textit{vértices do poliedro}. Exige-se ainda que a interseção de duas faces quaisquer do poliedro seja uma aresta comum a essas faces, ou um vértice comum, ou seja vazia.
 
